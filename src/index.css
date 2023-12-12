@@ -1,0 +1,60 @@
+.aKey {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 6rem);
+}
+
+.top {
+  grid-column: span 2;
+  margin-top: 7vh;
+}
+
+button {
+  font-size: 4.5vh;
+  background-color: #3498db; /* Blue background color */
+  color: #fff;
+  padding: 14px 16px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+  color: #fff;
+}
+
+.body {
+  text-align: center;
+  margin: 20px auto;
+  border: 6px solid #3498db; /* Border color same as button background color */
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.point {
+  cursor: pointer;
+}
+
+.bot {
+  display: flex;
+  justify-content: center;
+}
+
+.a {
+  width: 35%;
+}
+
+.b {
+  width: 30%;
+}
+
+button.point.c {
+  width: 30%;
+}
+
+button.point.d {
+  width: 40%;
+}
